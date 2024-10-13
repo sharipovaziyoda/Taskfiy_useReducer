@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.task-list-container {
+  padding: 20px;
+  margin: auto;
+  background-color: #1495d0;
+  border-radius: 10px;
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+h3 {
+  color: #fff;
+  margin-left: 10px;
+}
+.task-input-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.task-input-form input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.task-input-form button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1a73e8;
+  color: white;
+  cursor: pointer;
+}
+
+.task-section {
+  display: flex;
+  justify-content: space-between;
+}
+.active-tasks {
+  background-color: #1a73e8;
+  border-radius: 5px;
+}
+.active-tasks,
+.completed-tasks {
+  flex-basis: 45%;
+  cursor: pointer;
+}
+
+.task-card {
+  background-color: #fef3b7;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.completed {
+  background-color: #f0f4c3;
+}
+
+.completed-text {
+  text-decoration: line-through;
+}
+.completed-tasks {
+  background-color: orange;
+  border-radius: 5px;
+}
